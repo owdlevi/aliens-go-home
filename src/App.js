@@ -1,16 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react'
+import Canvas from './components/Canvas'
 
 function App({ message }) {
-  return (
-    <div className="App">
-      <h1>{message}</h1>
-    </div>
-  );
+  return <Canvas />
 }
 
-App.propTypes = {
-  message: PropTypes.string.isRequired
-};
-
-export default App;
+export default App
